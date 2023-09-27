@@ -1,0 +1,118 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  height: 100%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.account-holder-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.account-holder-name {
+  color: #475569;
+  font-weight: 600;
+  font-family: roboto;
+}
+
+.account-description {
+  font-family: roboto;
+  font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+}
+
+span {
+  color: #0b69ff;
+}
+.bottom-card-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.input-container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: solid black 1px;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+label {
+  font-size: 11px;
+  color: #7e858e;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 90%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 90%;
+  height: 30px;
+  margin-bottom: 20px;
+  border-width: 1px;
+}
+
+.history-container {
+  height: 100%;
+  width: 200px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.output-container {
+  width: 50%;
+  height: 100vh;
+  border-radius: 20px;
+  margin-top: 30px;
+  border: solid black 1px;
+  align-self: center;
+  padding: 50px;
+}
+
+.history-headers {
+  border: solid black 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+.button {
+  border-width: 0px;
+  border-radius: 8px;
+  background-color: #0b69ff;
+  color: #fff;
+  width: 70px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: roboto;
+}

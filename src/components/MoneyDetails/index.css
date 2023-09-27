@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.money-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  width: 230px;
+  border-radius: 10px;
+}
+
+.money-details-icon {
+  height: 70px;
+}
+
+.each-details-header {
+  font-size: 20px;
+  font-weight: 500;
+  color: #7e858e;
+}
+
+.amount {
+  font-size: 17px;
+  font-weight: 500;
+  color: #7e858e;
+}
+
+.amount-details-sec {
+  margin-left: 20px;
+}
+
+.money-items-contaniner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.balance {
+  border: solid #84cc16 1px;
+  background-color: #ecfccb;
+}
+.income {
+  border: solid #06b6d4 1px;
+  background-color: #cffafe;
+}
+.expenses {
+  border: solid #7c3aed 1px;
+  background-color: #ede9fe;
+}

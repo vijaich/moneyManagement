@@ -1,0 +1,21 @@
+/* Write your CSS here */
+.history-items {
+  display: flex;
+  width: 35vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  border-top: none;
+  border: solid black 1px;
+}
+
+.delete-icon {
+  height: 30px;
+}
+
+.delete-icon-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
